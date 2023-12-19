@@ -1,0 +1,2 @@
+@daily /bin/bash /home/ori/upload-rusty-backup.sh > /tmp/upload-rusty-backup.log 2>&1
+

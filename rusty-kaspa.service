@@ -1,0 +1,9 @@
+[Unit]
+Description=Rusty Kaspa service
+After=network.target
+[Service]
+Type=simple
+User=ori
+ExecStart=/home/ori/.cargo/bin/cargo run --release --bin kaspad -- --utxoindex
+WorkingDirectory=/home/ori/rusty-kaspa
+
